@@ -51,17 +51,17 @@ const float bed_skew_angle_extreme = (0.25f * M_PI / 180.f);
 // Positions of the bed reference points in the machine coordinates, referenced to the P.I.N.D.A sensor.
 // The points are ordered in a zig-zag fashion to speed up the calibration.
 const float bed_ref_points[] PROGMEM = {
-    13.f  - BED_ZERO_REF_X,   6.4f - BED_ZERO_REF_Y,
-    115.f - BED_ZERO_REF_X,   6.4f - BED_ZERO_REF_Y,
-    216.f - BED_ZERO_REF_X,   6.4f - BED_ZERO_REF_Y,
+    13.f  - BED_ZERO_REF_X,  10.4f - BED_ZERO_REF_Y,
+    117.f - BED_ZERO_REF_X,  10.4f - BED_ZERO_REF_Y,
+    221.f - BED_ZERO_REF_X,  10.4f - BED_ZERO_REF_Y,
 
-    216.f - BED_ZERO_REF_X, 104.4f - BED_ZERO_REF_Y,
-    115.f - BED_ZERO_REF_X, 104.4f - BED_ZERO_REF_Y,
-    13.f  - BED_ZERO_REF_X, 104.4f - BED_ZERO_REF_Y,
+    221.f - BED_ZERO_REF_X, 106.4f - BED_ZERO_REF_Y,
+    117.f - BED_ZERO_REF_X, 106.4f - BED_ZERO_REF_Y,
+    13.f  - BED_ZERO_REF_X, 106.4f - BED_ZERO_REF_Y,
 
     13.f  - BED_ZERO_REF_X, 202.4f - BED_ZERO_REF_Y,
-    115.f - BED_ZERO_REF_X, 202.4f - BED_ZERO_REF_Y,
-    216.f - BED_ZERO_REF_X, 202.4f - BED_ZERO_REF_Y
+    117.f - BED_ZERO_REF_X, 202.4f - BED_ZERO_REF_Y,
+    221.f - BED_ZERO_REF_X, 202.4f - BED_ZERO_REF_Y
 };
 
 // Positions of the bed reference points in the machine coordinates, referenced to the P.I.N.D.A sensor.
